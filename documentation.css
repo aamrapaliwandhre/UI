@@ -1,0 +1,20 @@
+.component-heading{
+    font-size: 3rem;
+}
+
+.component-subheading{
+    font-size: 1.3rem;
+}
+
+
+.bold-text{
+    font-weight: bold;
+}
+.component-text{
+    font-size: 1.2rem;
+}
+.code-example{
+    width: 95%;
+    max-width: 1000px;
+    height: 300px;
+}
