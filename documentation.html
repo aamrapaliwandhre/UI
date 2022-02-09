@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI</title>
+    <!-- Link to stylesheet -->
+    <link rel="stylesheet" href="./Components/component.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="documentation.css" />
+    
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class=" logo">
+            <img class="nav-logo-ui" alt="Component-Library" src="./Assets/unii_4.png">
+        </div>
+    
+        <div class="nav-items-container">
+          <a class="nav-item font-medium" href="index.html">Home</a>
+          <a class="nav-item font-medium">Documentation</a>
+        </div>
+      </nav>
+      
+      <!-- Mobile Sidebar End -->
+  
+      <main class="documentation-container">
+
+        <section class="components-container">
+            <!-- Alerts section -->
+            <section class="component-section" id="alerts-section">
+              <h4 class="component-heading">Alerts</h4>
+              <p class="component-subheading">
+                Alerts are used to attract user's attention for important
+                information without interrupting the user's flow.
+              </p>
+              
+              <!-- <p class="component-text">
+                <span class="bold-text"
+                  >alert type- alert-success, alert-warning, alert-danger,
+                  alert-info</span
+                >. 
+              </p> -->
+              <p class="component-subheading bold-text">
+                Example of Alerts
+              </p>
+              <div class="component-example">
+    
+                <!--error Alert-->
+                <div class="alert alert-error">
+                  Error alert example !
+                </div>
+                
+                <!--Success Alert -->
+                <div class="alert alert-success">
+                  Success alert example !
+                </div>
+                
+                <!--Warning Alert -->
+                <div class="alert alert-warning">
+                  Warning alert example !
+                </div>
+                
+                <!--Info Alert -->
+                <div class="alert alert-information">
+                  Information alert example !
+                </div>
+                <p class="component-text bold-text">
+                  You can copy html part
+                from below code snippet.
+                </p>
+              </div>
+              <!--Code Example-->
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--error%2520Alert--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Error%2520alert%2520example%2520%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--Success%2520Alert%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Success%2520alert%2520example%2520%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--Warning%2520Alert%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Warning%2520alert%2520example%2520%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--Info%2520Alert%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-information%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Information%2520alert%2520example%2520%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"class="code-example"
+                sandbox="allow-scripts allow-same-origin"
+                loading="lazy"
+              >
+              </iframe>
+            </section>
+            <!--  Alerts Section End  -->
+
+                </main>
+        </body>
+        </html>
